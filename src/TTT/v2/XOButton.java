@@ -16,7 +16,7 @@ public class XOButton extends JButton implements ActionListener{
     public  XOButton(){
      X=new ImageIcon(this.getClass().getResource("X.png"));
      O=new ImageIcon(this.getClass().getResource("O.png"));
-
+        this.addActionListener(this);
     }
 
     @Override
